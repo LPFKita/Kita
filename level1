@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func sum(a int, b int) int {
+return a + b
+
+}
+
+func main() {
+var num1 int = 1
+var num2 int = 2
+var sum1 int
+sum1 = sum(num1, num2)
+fmt.Println("两个数的和为", sum1)
+}
